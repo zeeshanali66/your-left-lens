@@ -1,0 +1,4 @@
+__pycache__/
+results/temps.log
+results/run.log
+results/*/resid.npy

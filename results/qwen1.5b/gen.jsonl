@@ -1,0 +1,640 @@
+{"id": "t0-cup-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the cup is on my left from your seat, it must be on your right from my seat.\n\nAnswer: right"}
+{"id": "t0-cup-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-cup-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the cup is to your left when you're sitting across the table from me, it would be on my right side.\n\nAnswer: right"}
+{"id": "t0-cup-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-cup-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're sitting to the left of the person and they have their cup on their left side, it means the cup must be on the person's right side.\n\nAnswer: right"}
+{"id": "t0-cup-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-cup-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're looking at the cup and it's to your left, then the cup must be on your left side as well. Answer: left."}
+{"id": "t0-cup-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-cup-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the cup is on my right from where you sit, it must be on your left. Answer: left."}
+{"id": "t0-cup-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-cup-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if the cup is on my right when I'm sitting across the table, it means that the cup is on your left when you're sitting across the table.\n\nAnswer: left"}
+{"id": "t0-cup-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-cup-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to my right and the cup is on my right, it must be on your left because we are facing each other. Answer: left."}
+{"id": "t0-cup-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-cup-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the cup and it's on your right, then from my side, the cup would be on your left. Answer: left."}
+{"id": "t0-cup-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-book-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the book is on my left from where you sit, it must be on your right. Answer: right."}
+{"id": "t0-book-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-book-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the book is to your left when I'm looking at it, then for you, the book would be on your right side.\n\nAnswer: right"}
+{"id": "t0-book-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-book-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the book from across the table and it's on your left, then from my side of the table, the book would be on my right. Answer: right."}
+{"id": "t0-book-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-book-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're looking at the book and it's to your left, then the book must be on your left side. Answer: left."}
+{"id": "t0-book-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-book-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the book is on my right when I'm looking at it from my side, the book must be on your left when you're looking at it from your side.\n\nAnswer: left"}
+{"id": "t0-book-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-book-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the book is on your right because it's on your side of the table.\n\nAnswer: right"}
+{"id": "t0-book-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-book-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of me and the book is on my right, it must be on your left because we're both looking at the same book from different positions. Answer: left."}
+{"id": "t0-book-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-book-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the book and it's on your right, then logically, the book would be on your left when viewed from the other side of the table. Answer: left."}
+{"id": "t0-book-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-phone-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if the phone is on my left when I'm looking at it from my side, then logically, the phone would be on your right when you're looking at it from your side.\n\nAnswer: right"}
+{"id": "t0-phone-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-phone-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "From where you sit, the phone is on your left.\n\nAnswer: left"}
+{"id": "t0-phone-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-phone-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're sitting to the left of the person holding the phone, it means the phone is on their right side. Therefore, from where you sit, the phone is on your left. Answer: left."}
+{"id": "t0-phone-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-phone-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're looking at the phone and it's to your left, then yes, the phone is on your left. Answer: left."}
+{"id": "t0-phone-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-phone-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the phone is on your right from where you're sitting, it must be on the opposite side of the table from mine. Therefore, the phone is on my left.\n\nAnswer: left"}
+{"id": "t0-phone-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-phone-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the phone is on your right.\n\nAnswer: right"}
+{"id": "t0-phone-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-phone-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if you're sitting to the right of the person holding the phone, it means the phone is on their left side. Therefore, from your position, the phone is on your right. Answer: right."}
+{"id": "t0-phone-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-phone-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the phone, it means the phone is on your left side. Therefore, the answer is: Answer: left."}
+{"id": "t0-phone-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-lamp-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the lamp is on my left from where you sit, it must be on your right. Answer: right."}
+{"id": "t0-lamp-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-lamp-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From where you sit, the lamp is on your right because it's on your left side when looking at the room from that perspective. Answer: right."}
+{"id": "t0-lamp-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-lamp-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're sitting to the left of the lamp, it means the lamp is on your right side. Therefore, the answer is:\n\nAnswer: right"}
+{"id": "t0-lamp-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-lamp-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at me and the lamp is to your left, it means the lamp is on your right side.\n\nAnswer: right"}
+{"id": "t0-lamp-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-lamp-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the lamp is on my right from where you sit, it must be on your left. Answer: left."}
+{"id": "t0-lamp-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-lamp-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the lamp is on your right because it's opposite to what I'm seeing from my position.\n\nAnswer: right"}
+{"id": "t0-lamp-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-lamp-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the lamp, it means the lamp is on your left side. Therefore, the lamp is on your left. Answer: left."}
+{"id": "t0-lamp-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-lamp-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at me and the lamp is on my right side, it means the lamp is on your left side when you're standing directly opposite me.\n\nAnswer: left"}
+{"id": "t0-lamp-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-bottle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the bottle is on my left from where you sit, it must be on your right. Answer: right."}
+{"id": "t0-bottle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-bottle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the bottle is to your left when I'm sitting across the table, it would be to your right when you're sitting across the table.\n\nAnswer: right"}
+{"id": "t0-bottle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-bottle-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're sitting to the left of the bottle, it means the bottle is on your right side. Therefore, from where you sit, the bottle is on your right. Answer: right."}
+{"id": "t0-bottle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-bottle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're looking at the bottle and it's to your left, then yes, the bottle is on your left. Answer: left."}
+{"id": "t0-bottle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-bottle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the bottle is on my right from where you sit, it must be on your left. Answer: left."}
+{"id": "t0-bottle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-bottle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if the bottle is to your right when I'm sitting across the table, it would be on my left side.\n\nAnswer: left"}
+{"id": "t0-bottle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-bottle-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the bottle, it means the bottle must be on your left side because that's the opposite direction from where you're seated. Answer: left."}
+{"id": "t0-bottle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-bottle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the bottle and it's to your right, then the bottle must be on your left. Answer: left."}
+{"id": "t0-bottle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-apple-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the apple is on my left from your seat, it must be on your right from mine.\n\nAnswer: right"}
+{"id": "t0-apple-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-apple-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the apple is to your left when you're sitting across the table from me, it would be to my right when I'm sitting across the table from you.\n\nAnswer: right"}
+{"id": "t0-apple-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-apple-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're sitting to the left of the apple, it means the apple is on your right side. Therefore, from where you sit, the apple is on your right. Answer: right."}
+{"id": "t0-apple-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-apple-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the apple and it's to your left, then from my perspective, the apple would be on my right side. Answer: right."}
+{"id": "t0-apple-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-apple-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the apple is on your right from my position, it must be on my left when viewed from your side. Answer: left."}
+{"id": "t0-apple-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-apple-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, since the apple is on my right when I'm looking at it, the apple must be on your left when you're looking at it.\n\nAnswer: left"}
+{"id": "t0-apple-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-apple-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the apple, it means the apple is on your left. Therefore, from where you sit, the apple is on your left. Answer: left."}
+{"id": "t0-apple-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-apple-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the apple and it's on your right, then from my perspective, the apple would be on my left. Answer: left."}
+{"id": "t0-apple-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-pen-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the pen is on my left from where you sit, it must be on your right. Answer: right."}
+{"id": "t0-pen-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-pen-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the pen is on my left when I'm sitting across the table, it means that the pen is on your right when you're sitting across the table. Answer: right."}
+{"id": "t0-pen-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-pen-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're sitting to the left of me and the pen is on my left, it must be on my right because we're facing each other. Answer: right."}
+{"id": "t0-pen-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-pen-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at me and the pen is to your left, it means the pen is on your right side relative to yourself. Answer: right."}
+{"id": "t0-pen-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-pen-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the pen is on my right from where you sit, it must be on your left. Answer: left."}
+{"id": "t0-pen-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-pen-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the pen is on your right because it's on your side of the table.\n\nAnswer: right"}
+{"id": "t0-pen-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-pen-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of me and the pen is on my right, it means the pen must be on your left because we're both looking at the same object from different positions. Answer: left."}
+{"id": "t0-pen-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-pen-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of me and the pen is on my right, it must be on your left. Answer: left."}
+{"id": "t0-pen-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-plate-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, since the plate is on my left from your seat, it must be on your right from mine.\n\nAnswer: right"}
+{"id": "t0-plate-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-plate-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the plate is on my left when I'm looking at it, then logically, the plate would be on your right when you're looking at it.\n\nAnswer: right"}
+{"id": "t0-plate-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-plate-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the plate from across the table and it's on your left, then from my perspective, which is directly opposite yours, the plate would be on my right side. Answer: right."}
+{"id": "t0-plate-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-plate-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the plate and it's to your left, then from my perspective, the plate would be on my right side. Answer: right."}
+{"id": "t0-plate-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-plate-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the plate is on my right from your seat, it must be on your left. Answer: left."}
+{"id": "t0-plate-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-plate-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the plate is on your right because it's on your side of the table.\n\nAnswer: right"}
+{"id": "t0-plate-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-plate-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the plate from across the table and it's on your right, then from my side of the table, the plate would be on my left. Answer: left."}
+{"id": "t0-plate-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-plate-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to my right and the plate is on my right, it must be on your left. Answer: left."}
+{"id": "t0-plate-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-key-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if the key is on my left when I'm looking at it from my side, then logically, the key would be on your right when you're looking at it from your side.\n\nAnswer: right"}
+{"id": "t0-key-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-key-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From where you sit, the key is on your right.\nAnswer: right"}
+{"id": "t0-key-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-key-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the key from your side and it's on your left, then from my perspective, which is directly opposite yours, the key would be on my right. Answer: right."}
+{"id": "t0-key-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-key-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, if you're looking at the key and it's to your left, then the key must be on your left as well. Answer: left."}
+{"id": "t0-key-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-key-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the key is on your right when you're looking at it from your seat, and you're sitting opposite me, the key must be on my left side when I'm looking at it from my seat.\n\nAnswer: left"}
+{"id": "t0-key-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-key-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "From where you sit, the key is on your right.\n\nAnswer: right"}
+{"id": "t0-key-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-key-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the person holding the key, it means the key must be on their left side because they can see it directly from their position. Therefore, the answer is: Answer: left."}
+{"id": "t0-key-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-key-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're looking at the key and it's to your right, then logically, the key must be on your left since that's the opposite direction.\n\nAnswer: left"}
+{"id": "t0-key-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-candle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if the candle is on my left from where you sit, it must be on your right when you're looking at it directly. Answer: right."}
+{"id": "t0-candle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-candle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if the candle is on my left when I'm looking at it, then logically, the candle would be on your right when you're looking at it.\n\nAnswer: right"}
+{"id": "t0-candle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-candle-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the candle from across the room and it's on your left, then from my position, which is directly opposite yours, the candle would be on my right side. Answer: right."}
+{"id": "t0-candle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-candle-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "From your perspective, if you're looking at the candle and it's to your left, then the candle must be on your right side. Answer: right."}
+{"id": "t0-candle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-candle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, since the candle is on my right from your seat, it must be on your left. Answer: left."}
+{"id": "t0-candle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-candle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "From your perspective, since the candle is on my right when I'm looking at it, the candle must be on your left. Answer: left."}
+{"id": "t0-candle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t0-candle-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "From your perspective, if you're sitting to the right of the candle, it means the candle is on your left side when viewed from that position. Therefore, the answer is: Answer: left."}
+{"id": "t0-candle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t0-candle-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "From your perspective, if you're looking at the candle from across the table, it would appear to be on your right side because that's the direction of your view.\n\nAnswer: right"}
+{"id": "t0-candle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-cup-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a cup on Ali's left, it means that the cup must be on Sara's right because they are standing side by side.\n\nAnswer: right"}
+{"id": "t1-cup-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-cup-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands facing Sara, so if there is a cup on Ali's left, it must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-cup-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-cup-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a cup on Ali's left, it means that the cup cannot be on his right because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-cup-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-cup-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a cup on his left, it must be on his left side. Answer: left."}
+{"id": "t1-cup-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-cup-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine where the cup is located relative to Sara, we need to consider their positions as described. Since Ali stands to the right of Sara, if there is a cup on Ali's right, it must be on Sara's left.\n\nAnswer: left"}
+{"id": "t1-cup-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-cup-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a cup on Ali's right, it must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-cup-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-cup-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands to the right of Sara. Since there is a cup on Ali's right, it must be on his left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-cup-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-cup-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a cup on his right, it must be on his left side since they are standing face to face. Answer: left."}
+{"id": "t1-cup-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-book-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a book on Ali's left, it means that the book must be to the right of Sara because they are standing side by side. Answer: right."}
+{"id": "t1-book-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-book-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Step 1: Ali is facing Sara.\nStep 2: The book is on Ali's left.\n\nSince the book is on Ali's left, it must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-book-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-book-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a book on Ali's left, it means that the book cannot be on his right because he stands directly next to the wall without any other objects between them.\n\nAnswer: left"}
+{"id": "t1-book-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-book-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a book on his left, it must be on his left side. Answer: left."}
+{"id": "t1-book-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-book-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If there is a book on Ali's right, it means that Ali is to the right of the wall. Since Sara is standing next to Ali, she would be to the left of the wall. Therefore, the book on Ali's right must be on Sara's left.\n\nAnswer: left"}
+{"id": "t1-book-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-book-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a book on Ali's right, it means that Ali is facing away from the direction of the book. Since Sara is standing directly opposite Ali, if Ali is facing away from the book, Sara must be facing towards the book. Therefore, the book is on Sara's left.\n\nAnswer: left"}
+{"id": "t1-book-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-book-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Since there is a book on Ali's right, it means that the book cannot be on his left because he stands directly to the right of the book. Therefore, the book must be on Ali's right.\n\nAnswer: right"}
+{"id": "t1-book-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-book-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Step 1: Identify the position of Ali.\n- Since Ali stands facing Sara, he is on the left side.\n\nStep 2: Determine the relative positions based on the information given.\n- The problem states that there is a book on Ali's right.\n\nStep 3: Conclude the position of the book.\n- If there is a book on Ali's "}
+{"id": "t1-book-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-phone-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a phone on Ali's left, it means that the phone must be on Sara's right because they are standing side by side.\n\nAnswer: right"}
+{"id": "t1-phone-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-phone-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If Ali is facing Sara and there is a phone on his left, it means the phone must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-phone-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-phone-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a phone on Ali's left, it means that the phone must be to his left. Therefore, the phone is on Ali's left.\n\nAnswer: left"}
+{"id": "t1-phone-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-phone-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a phone on his left, it must be on his left side. Answer: left."}
+{"id": "t1-phone-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-phone-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a phone on Ali's right, it must be on Sara's left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-phone-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-phone-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a phone on Ali's right, it must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-phone-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-phone-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Since there is a phone on Ali's right, it means that the phone must be on Ali's right side of the wall they are standing next to. Answer: right."}
+{"id": "t1-phone-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-phone-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a phone on his right, it must be on his left because they are standing face to face. Answer: left."}
+{"id": "t1-phone-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-lamp-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a lamp on Ali's left, it means that the lamp must be to the right of Ali. Therefore, the lamp is on Sara's right.\n\nAnswer: right"}
+{"id": "t1-lamp-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-lamp-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands on the left side of Sara. Since there is a lamp on Ali's left, it must be on Sara's right.\n\nAnswer: right"}
+{"id": "t1-lamp-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-lamp-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a lamp on Ali's left, it means that the lamp must be to the left of Ali. Therefore, the lamp is on Ali's left.\n\nAnswer: left"}
+{"id": "t1-lamp-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-lamp-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "Ali stands facing Sara, so if there is a lamp on his left, it must be on his right side. Answer: right."}
+{"id": "t1-lamp-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-lamp-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a lamp on Ali's right, it must be on Sara's left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-lamp-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-lamp-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a lamp on Ali's right, it means that the lamp must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-lamp-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-lamp-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a lamp on Ali's right, it must be on his left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-lamp-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-lamp-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands on the right side of Sara. Since there is a lamp on Ali's right, it must be that the lamp is also on Ali's right.\n\nAnswer: right"}
+{"id": "t1-lamp-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-bottle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a bottle on Ali's left, it means that the bottle must be to the right of Sara because they are standing side by side. Answer: right."}
+{"id": "t1-bottle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-bottle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali is facing Sara, so if there is a bottle on Ali's left, it must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-bottle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-bottle-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a bottle on Ali's left, it means the bottle must be to his immediate left. Therefore, the bottle is on Ali's left.\n\nAnswer: left"}
+{"id": "t1-bottle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-bottle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a bottle on his left, it must be on his left side. Answer: left."}
+{"id": "t1-bottle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-bottle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine where the bottle is located relative to Sara, we need to consider their positions and the fact that there is a bottle on Ali's right. Since they are standing side by side, if Ali has something on his right, it must be on Sara's left.\n\nAnswer: left"}
+{"id": "t1-bottle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-bottle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a bottle on Ali's right, it means that the bottle must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-bottle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-bottle-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Since there is a bottle on Ali's right, it means that the bottle cannot be on his left because he stands directly to the right of the bottle. Therefore, the bottle must be on Ali's right.\n\nAnswer: right"}
+{"id": "t1-bottle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-bottle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a bottle on his right, it must be on his left because they are standing face to face. Answer: left."}
+{"id": "t1-bottle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-apple-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Ali stands to the left of Sara. Since there is an apple on Ali's left, it must be on Sara's right.\n\nAnswer: right"}
+{"id": "t1-apple-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-apple-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If there is an apple on Ali's left, it means that the apple must be on Sara's right because they are standing facing each other. Answer: right."}
+{"id": "t1-apple-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-apple-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands to the left of Sara. Since there is an apple on Ali's left, it must be that the apple is on Ali's left as well.\n\nAnswer: left"}
+{"id": "t1-apple-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-apple-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is an apple on his left, it must be on his left side. Answer: left."}
+{"id": "t1-apple-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-apple-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "Step 1: Ali stands to the right of Sara.\nStep 2: The apple is specifically mentioned to be on Ali's right.\n\nTherefore, since the apple is on Ali's right, it must also be on Sara's left.\n\nAnswer: left"}
+{"id": "t1-apple-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-apple-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is an apple on Ali's right, it means that the apple must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-apple-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-apple-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands to the right of Sara. Since there is an apple on Ali's right, it must be on his right side.\n\nAnswer: right"}
+{"id": "t1-apple-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-apple-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If there is an apple on Ali's right, it means that the apple must be on his left side because they are standing facing each other. Answer: left."}
+{"id": "t1-apple-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-pen-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a pen on Ali's left, it means that the pen must be to the right of Sara because they are standing side by side. Answer: right."}
+{"id": "t1-pen-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-pen-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali is facing Sara, so if there is a pen on Ali's left, it must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-pen-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-pen-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a pen on Ali's left, it means that the pen is not on Ali's right. Therefore, the answer is:\n\nAnswer: left"}
+{"id": "t1-pen-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-pen-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a pen on his left, it must be on his left side. Answer: left."}
+{"id": "t1-pen-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-pen-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a pen on Ali's right, it means that the pen must be on Sara's left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-pen-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-pen-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a pen on Ali's right, it means that the pen must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-pen-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-pen-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a pen on Ali's right, it means that the pen must be to his left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-pen-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-pen-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a pen on his right, it must be on his left because they are standing face to face. Answer: left."}
+{"id": "t1-pen-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-plate-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Since there is a plate on Ali's left, it means that the plate must be on Sara's right because they are standing side by side.\n\nAnswer: right"}
+{"id": "t1-plate-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-plate-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands facing Sara, so if there is a plate on Ali's left, it must be on Sara's right because they are standing face to face. Answer: right."}
+{"id": "t1-plate-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-plate-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a plate on Ali's left, it means that the plate cannot be on his right because he stands directly next to it. Therefore, the plate must be on Ali's left.\n\nAnswer: left"}
+{"id": "t1-plate-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-plate-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a plate on his left, it must be on his left side. Answer: left."}
+{"id": "t1-plate-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-plate-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "Since there is a plate on Ali's right, it must be on Sara's left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-plate-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-plate-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a plate on Ali's right, it means that the plate must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-plate-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-plate-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali stands to the right of Sara. Since there is a plate on Ali's right, it must be on his right side.\n\nAnswer: right"}
+{"id": "t1-plate-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-plate-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a plate on his right, it must be on his left side because they are standing face to face. Answer: left."}
+{"id": "t1-plate-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-key-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine where the key is located between Ali and Sara, we need to consider their positions relative to each other. Since they are standing side by side, if Ali has the key on his left, it means that the key must be on Sara's right.\n\nAnswer: right"}
+{"id": "t1-key-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-key-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "Ali has a key on his left. Since they are facing each other, if Ali's key is on his left, it must be on Sara's right.\n\nAnswer: right"}
+{"id": "t1-key-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-key-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the key is on Ali's left or right, we need to consider their positions relative to each other and the wall. Since they are standing side by side, if Ali has the key on his left, it means that the key is closer to him than the wall. Conversely, if the key were on Ali's right, it "}
+{"id": "t1-key-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-key-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "Ali stands facing Sara, so if there is a key on his left, it must be on his right side. Answer: right."}
+{"id": "t1-key-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-key-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine where the key is located between Ali and Sara, we need to consider their positions relative to each other. Since they are standing side by side, if Ali has the key on his right, it logically follows that the key would be on Sara's left.\n\nAnswer: left"}
+{"id": "t1-key-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-key-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a key on Ali's right, it means that the key must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-key-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-key-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands to the right of Sara. Since there is a key on Ali's right, it must be on his left because they are standing side by side.\n\nAnswer: left"}
+{"id": "t1-key-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-key-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali and Sara are standing facing each other. The key is on Ali's right. Since they are facing each other, if the key is on Ali's right, it must be on his left side.\n\nAnswer: left"}
+{"id": "t1-key-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-candle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine whether the candle is on Sara's left or right, we need to consider their positions relative to each other and the wall. Since they are standing side by side and there is a candle on Ali's left, it logically follows that the candle would be on Sara's right.\n\nAnswer: right"}
+{"id": "t1-candle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-candle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine where the candle is located relative to Sara, we need to consider their positions facing each other. Since they are standing face to face, if you look at them from above, both Ali and Sara would be directly opposite each other.\n\nGiven that there is a candle on Ali's left side, it must l"}
+{"id": "t1-candle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-candle-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "Since there is a candle on Ali's left, it means that the candle is to the left of Ali. Therefore, the answer is: Answer: left."}
+{"id": "t1-candle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-candle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "Ali stands facing Sara, so if there is a candle on his left, it must be on his left side. Answer: left."}
+{"id": "t1-candle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-candle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine where the candle is relative to Sara, we need to consider their positions as described. Since there is a candle on Ali's right, it means that Ali is positioned to the right of the candle. If Sara is standing next to Ali, she would be to his left. Therefore, the candle must be on Sara's "}
+{"id": "t1-candle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-candle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If there is a candle on Ali's right, it means that the candle must be on Sara's left because they are standing facing each other. Answer: left."}
+{"id": "t1-candle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t1-candle-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "Since there is a candle on Ali's right, it means that the candle cannot be on his left. Therefore, the candle must be on Ali's right.\n\nAnswer: right"}
+{"id": "t1-candle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t1-candle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "Ali stands facing Sara, so if there is a candle on his right, it must be on his left side. Therefore, the candle is on Ali's left.\n\nAnswer: left"}
+{"id": "t1-candle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-cup-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the cup on your left side, it means the cup is to your right for the user. Answer: right."}
+{"id": "t2-cup-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-cup-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see something to your left, it means that object is on their left side relative to where they're standing.\n\nAnswer: left"}
+{"id": "t2-cup-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-cup-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the cup is to my left or right, you need to consider your own perspective as the observer. Since you are the one observing yourself from this position, if the cup appears to be on your left when you look at it directly, then it would be considered to be on your left.\n\nAnswer: le"}
+{"id": "t2-cup-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-cup-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the cup is on your left or right as seen from your perspective, you need to consider where the camera is positioned relative to the robot's body. If the camera is facing towards the left side of the robot, then the object on that side would be considered the left. Conversely, if"}
+{"id": "t2-cup-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-cup-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the cup on your right side, it means the cup would be on the user's left side as well.\n\nAnswer: left"}
+{"id": "t2-cup-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-cup-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is facing you directly. Since your camera is positioned to see the cup on your right side, it means that if you were to look at the user from your position, the cup would be on the user's right side.\n\nAnswer: right"}
+{"id": "t2-cup-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-cup-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the cup is to my left or right, you need to consider your own perspective relative to the robot. Since the user is standing beside you and looking at the same direction as you, if the cup is on your right side when you look at it from your position, it would be on the left side "}
+{"id": "t2-cup-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-cup-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the cup is on your left or right as seen from your perspective, you need to consider where the robot's camera is positioned relative to the user. Typically, cameras are mounted above the head or near the center of the body, so they can see both sides simultaneously.\n\nSince the u"}
+{"id": "t2-cup-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-book-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the book on your left side, it means the book is to your right for the user. Answer: right."}
+{"id": "t2-book-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-book-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see a book on your left side, it means the book is to their left. Answer: left."}
+{"id": "t2-book-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-book-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "When you look at your surroundings from your perspective as a robot, if you're facing forward and to the left of the book, it would appear to be on your left. If you're facing forward and to the right of the book, it would appear to be on your right.\n\nAnswer: left"}
+{"id": "t2-book-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-book-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "When you look at your robot friend from their perspective, they would see themselves as being to the left of the person because they are facing forward towards you. Therefore, for the robot, the book on its left side would be considered the book on its own right.\n\nAnswer: right"}
+{"id": "t2-book-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-book-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the book on your right side, it means the book is to your left for the user. Answer: left."}
+{"id": "t2-book-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-book-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera shows the book to your right, it means the book is on the user's left side.\n\nAnswer: left"}
+{"id": "t2-book-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-book-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "When you look at your surroundings from your perspective as a robot, if you're facing forward and to the right of the book on your right side, it would appear that the book is on your left side. Therefore, for you, the robot, the book is on your left.\n\nAnswer: left"}
+{"id": "t2-book-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-book-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the book is to the left or right of the robot, I need to consider the orientation of the robot's camera relative to the user. If the camera is positioned such that it can see the book from the perspective of the robot, then the book would be on the opposite side of the robot.\n\nA"}
+{"id": "t2-book-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-phone-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the phone on your left side, it means the phone is to your right for the user. Answer: right."}
+{"id": "t2-phone-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-phone-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly. Since your camera is positioned to see the phone on your left side, it means that if you were to look down at the ground from where you're standing, the phone would be on your left.\n\nAnswer: left"}
+{"id": "t2-phone-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-phone-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "When you're facing forward, if your camera captures an object to your immediate left, it would be considered your left side. Since the user is standing beside you and looking the same way, the phone on your left side would appear as your left.\n\nAnswer: left"}
+{"id": "t2-phone-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-phone-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine whether the phone is on your left or right as seen from your perspective, you need to consider where your body is positioned relative to the phone. If your body is facing towards the phone, it would be considered on your right; if your body is facing away from the phone, it would be con"}
+{"id": "t2-phone-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-phone-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the phone on your right side, it means the phone is to your left for the user. Answer: left."}
+{"id": "t2-phone-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-phone-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera is positioned to see the phone on your right side, it means that if you were to look at the user from behind, the phone would be on their left side.\n\nAnswer: left"}
+{"id": "t2-phone-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-phone-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the phone is to your left or right, you need to consider where the robot's camera is pointing. Since the robot's camera is facing the direction of the user, if the user is standing to your right, the camera will be looking at the user from their left perspective.\n\nAnswer: left"}
+{"id": "t2-phone-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-phone-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the phone is on your left or right as seen from your perspective, you need to consider where the camera is positioned relative to the robot's body. If the camera is facing towards the user (the person), then the phone would be on the opposite side of the robot.\n\nAnswer: right\n\nT"}
+{"id": "t2-phone-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-lamp-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the lamp on your left, it means the lamp is to your right for the user. Answer: right."}
+{"id": "t2-lamp-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-lamp-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly. Since your camera is on your left side, it would be pointing towards the user's left. Therefore, the lamp that your camera sees on your left side is located to the user's left.\n\nAnswer: left"}
+{"id": "t2-lamp-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-lamp-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the lamp is to my left or right, you need to consider your own perspective as the observer. Since you are standing directly facing the robot, if the lamp is on your left side when you look at it from that position, it would be considered to be on your left for the robot.\n\nAnswer"}
+{"id": "t2-lamp-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-lamp-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine whether the lamp is to the left or right of the robot, I need to consider the orientation of the robot's camera relative to its position. If the camera is facing towards the left, the object to the left would be considered the left side; if it's facing towards the right, the object to t"}
+{"id": "t2-lamp-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-lamp-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the lamp on your right side, it means the lamp is to your left for the user. Answer: left."}
+{"id": "t2-lamp-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-lamp-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera is on your right side, if the lamp is to your right, it would be visible from the user's perspective. Therefore, the lamp is on the user's left.\n\nAnswer: left"}
+{"id": "t2-lamp-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-lamp-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the lamp is to the left or right of you as seen from your perspective, consider that you are standing directly behind the robot. Since the robot's camera faces forward, it would see the lamp positioned opposite to where you are located.\n\nAnswer: right"}
+{"id": "t2-lamp-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-lamp-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the lamp is on your left or right as seen from your perspective, you need to consider the direction from which you are observing. If you are facing towards the lamp, it would be on your right; if you are facing away from the lamp, it would be on your left.\n\nAnswer: right"}
+{"id": "t2-lamp-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-bottle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the bottle on your left side, it means the bottle is to your right for the user. Answer: right."}
+{"id": "t2-bottle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-bottle-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see something to your left, it means that object is on their left side. Therefore, the bottle is on the user's left.\n\nAnswer: left"}
+{"id": "t2-bottle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-bottle-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the bottle is to your left or right, you need to consider where it appears relative to your position. Since the user is standing beside you and looking the same way as you, if the bottle is visible on your left side when you look at it from that perspective, it would be consider"}
+{"id": "t2-bottle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-bottle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the bottle is on your left or right as seen from your perspective, you need to consider where the camera is positioned relative to the robot's body. If the camera is facing towards the left side of the robot, then the object (the bottle) would be on your left. Conversely, if the"}
+{"id": "t2-bottle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-bottle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the bottle on your right side, it means the bottle is to your left for the user. Answer: left."}
+{"id": "t2-bottle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-bottle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera is positioned to see the bottle on your right side, it means that from the user's perspective, the bottle would be on their left side.\n\nAnswer: left"}
+{"id": "t2-bottle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-bottle-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "When you're facing forward, to your right would be the direction that's to your right as you look straight ahead. Since the user is standing beside you and looking the same way, if the bottle is on your right side when you face forward, it will also be on your right side from their perspective.\n\nAns"}
+{"id": "t2-bottle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-bottle-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the bottle is on your left or right as seen from your perspective, you need to consider where the camera is positioned relative to the user. If the camera is positioned such that it captures the user's view from their perspective, then the object would appear to be on the opposi"}
+{"id": "t2-bottle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-apple-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is standing directly opposite you, so if your camera sees an object to your left, it would be seen as the opposite direction for them. Therefore, the apple they see is on their left.\n\nAnswer: left"}
+{"id": "t2-apple-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-apple-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see an object to your left, it would be considered to be on their left side. Answer: left."}
+{"id": "t2-apple-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-apple-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "When you look at an object from your perspective, it appears to be on the opposite side of what you're facing. Since you're looking straight ahead, if the robot's camera sees something on its left side, that means the actual object is on the other side of the robot.\n\nAnswer: right"}
+{"id": "t2-apple-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-apple-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "When you look at your robot friend from their perspective, they would see themselves as being stationary while everything else moves around them. Since you are standing to their left, it means that for them, the apple on your left side would be considered their left.\n\nAnswer: left"}
+{"id": "t2-apple-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-apple-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees an object to your right, the user would see that same object on their left. Answer: left."}
+{"id": "t2-apple-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-apple-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera shows an apple to the right of you, it means the apple is to the left of the user.\n\nAnswer: left"}
+{"id": "t2-apple-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-apple-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "When you look at an object from your perspective, it appears to be on the opposite side of what you're facing. Since you're looking straight ahead, if the robot's camera sees the apple on its right side, for the robot, the apple would appear on the left side because that's where you're looking.\n\nAns"}
+{"id": "t2-apple-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-apple-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "When you look at your robot friend from their perspective, they would see everything as if it were reflected through a mirror. Since you're standing to their right, for them, the apple on your right side would appear on their left side.\n\nAnswer: left"}
+{"id": "t2-apple-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-pen-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the pen on your left side, it would be on the user's right side.\n\nAnswer: right"}
+{"id": "t2-pen-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-pen-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see something to your left, it means that object is to their left. Since the pen is on your left side as seen from the user's perspective, the pen is on the user's left.\n\nAnswer: left"}
+{"id": "t2-pen-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-pen-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the pen is to your left or right, you need to consider where it appears relative to your position. Since the user is standing beside you and looking the same way as you, if the pen is visible on your left side from their perspective, it would be on your left from your own perspe"}
+{"id": "t2-pen-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-pen-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the pen is to the left or right of the robot, I need to consider its position relative to itself. Since the robot is stationary and the camera shows it facing forward, any object to the left would be seen as coming from the left side of the robot's view.\n\nGiven that the pen is p"}
+{"id": "t2-pen-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-pen-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the pen on your right side, it would be on the user's left side.\n\nAnswer: left"}
+{"id": "t2-pen-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-pen-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly. Since your camera shows the pen to be on your right side, it means the pen is actually on the user's left side.\n\nAnswer: left"}
+{"id": "t2-pen-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-pen-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the pen is to your left or right, you need to consider where the robot's camera is pointing. Since the robot's camera is facing forward (towards the user), it will see objects that are to its left as they move towards you from behind.\n\nGiven this setup:\n- If the pen is positione"}
+{"id": "t2-pen-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-pen-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the pen is to the left or right of the robot, I need to consider its position relative to itself. Since the robot's camera shows it as being directly facing forward, any object to the left would be seen from behind, which isn't possible for a stationary robot.\n\nTherefore, based "}
+{"id": "t2-pen-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-plate-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the plate on your left side, it means the plate would be on the user's right side.\n\nAnswer: right"}
+{"id": "t2-plate-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-plate-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they look to your left, it means the plate is on their left side. Answer: left."}
+{"id": "t2-plate-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-plate-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the plate is to my left or right, you need to consider your perspective relative to the robot. Since the robot's camera sees the plate on its left side, it implies that from the robot's viewpoint, the plate is located to the left of the robot.\n\nAnswer: left"}
+{"id": "t2-plate-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-plate-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the plate is on your left or right as seen from your perspective, you need to consider where your body is positioned relative to the plate. If you're facing the plate directly, it would be on your left if you're standing with your back towards the plate.\n\nAnswer: left"}
+{"id": "t2-plate-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-plate-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the plate on your right side, it means the plate would be on the user's left side.\n\nAnswer: left"}
+{"id": "t2-plate-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-plate-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is standing directly in front of you, so if your camera sees something to your right, it means that object is to your left for the user.\n\nAnswer: left"}
+{"id": "t2-plate-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-plate-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the plate is to my left or right, you need to consider your own perspective as the observer. Since you are the one observing yourself from this position, if you look at the plate from where you stand, it will appear to be on your left.\n\nAnswer: left"}
+{"id": "t2-plate-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-plate-right-self_opp", "mode": "cot", "pred": "right", "ok": true, "raw": "To determine whether the plate is on your left or right as seen from your perspective, you need to consider where the robot's camera is positioned relative to its own body. Typically, cameras are mounted on the top or back of robots for optimal visibility.\n\nSince the problem states that the user is "}
+{"id": "t2-plate-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-key-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the key on your left side, it means the key would be on the user's right side as well.\n\nAnswer: right"}
+{"id": "t2-key-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-key-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if your camera sees the key on your left side, it means the key is to the user's left as well. Answer: left."}
+{"id": "t2-key-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-key-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine whether the key is on your left or right as seen from your perspective, you need to consider the direction of your head movement relative to the key's position.\n\n1. If you turn your head to look at the key, it will appear closer to your left if you're facing forward.\n2. Conversely, if y"}
+{"id": "t2-key-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-key-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the key is on your left or right as seen from your perspective, you would need to know which direction you are facing relative to the robot's position. Since I don't have direct access to the user's physical orientation, we can only speculate based on common human behavior.\n\nIf "}
+{"id": "t2-key-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-key-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the key on your right side, it means the key would be on the user's left side as well.\n\nAnswer: left"}
+{"id": "t2-key-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-key-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "The user is facing you directly, so if your camera sees the key on your right side, it means the key is to your left. Answer: left."}
+{"id": "t2-key-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-key-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the key is on your left or right as you look at it from your perspective, consider that you are standing directly behind the robot. Since the robot's camera sees the key on its right side, this implies that if you were to stand facing the robot, the key would be on your left.\n\nA"}
+{"id": "t2-key-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-key-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the key is on your left or right as seen from your perspective, you need to consider where the camera is positioned relative to you. If the camera is on your right side, then the object (the key) would be on your left side when viewed from that angle.\n\nAnswer: left"}
+{"id": "t2-key-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-candle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the candle on your left side, it means the candle is to your right for the user. Answer: right."}
+{"id": "t2-candle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-candle-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is facing you directly, so if they see a candle to your left, it means the candle is on their left side. Answer: left."}
+{"id": "t2-candle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-candle-left-self_same", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine whether the candle is to my left or right, you need to consider your own position relative to the robot's perspective. Since the user is standing beside you and looking at the same direction as you, if the candle is visible on your left side from your viewpoint, it would be on the user'"}
+{"id": "t2-candle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-candle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine whether the candle is to the left or right of the robot, we need to consider the orientation of the robot's camera relative to the user. If the camera is positioned such that it captures the user from the left side, then the object seen would be to the left. Conversely, if the camera is"}
+{"id": "t2-candle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-candle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "The user is standing directly opposite you, so if your camera sees the candle on your right side, it means the candle is actually on the user's left side.\n\nAnswer: left"}
+{"id": "t2-candle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-candle-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "The user is facing you directly. Since your camera is positioned to see the candle on your right side, it means that from the user's perspective, the candle would be on the opposite side of where they are facing.\n\nAnswer: right"}
+{"id": "t2-candle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t2-candle-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the candle is to the left or right of you as seen from your perspective, consider that you are facing forward and the robot's camera is positioned at your right side. Since the candle is located on your right side according to the robot's view, it would be considered to be on yo"}
+{"id": "t2-candle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t2-candle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "To determine whether the candle is to the left or right of the robot, I need to consider the orientation of the robot's camera relative to the user. Since the user is standing in front of the robot, if the camera is pointing towards the user from the robot's perspective, the left would be opposite t"}
+{"id": "t2-candle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-cup-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Let's break it down:\n1. The first friend sees the cup on their left.\n2. Since they're facing the same direction as the second friend, if the cup is on the first friend's left, it must be on the second friend's right.\n\nTherefore, the answer is: Answer: right."}
+{"id": "t3-cup-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-cup-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the cup is on their left, it means the cup must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-cup-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-cup-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the cup is on their left, and they are facing the sea, it means the cup must be to the left of them as they look at the sea.\n\nAnswer: left"}
+{"id": "t3-cup-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-cup-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "The first friend has already said that the cup is on their left. Therefore, the cup must be on the second friend's left as well.\n\nAnswer: left"}
+{"id": "t3-cup-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-cup-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the cup is on their right, and they are facing the sea, it means the cup must be to the right of them. Since the second friend is also facing the same direction (the sea), if the first friend's cup is to their right, then the second friend's cup would logically be to their l"}
+{"id": "t3-cup-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-cup-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the cup is on their right, and assuming they're facing the same direction as the second friend, it means the cup must be on the second friend's left side. Answer: left."}
+{"id": "t3-cup-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-cup-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the cup is on their right, and they are facing the sea, it means the cup must be to the left of them.\n\nAnswer: left"}
+{"id": "t3-cup-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-cup-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend said the cup is on their right, and assuming they're sitting facing you (the observer), then the cup must be on your left side. Therefore, Answer: left."}
+{"id": "t3-cup-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-book-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the book is on their left, and they are facing the sea, it means that if you were standing behind them looking at the sea, the book would be to their left side.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-book-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-book-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the book is on their left, it means the book must be to the left of them. Since they are sitting opposite each other, this would place the book to the right of the second friend.\n\nAnswer: right"}
+{"id": "t3-book-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-book-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the book is on their left, and they are facing the sea, it means the book must be to the left of them as well since they are looking at the same direction.\n\nAnswer: left"}
+{"id": "t3-book-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-book-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the book is on their left, it means the book must be to the left of them on the table. Therefore, the answer is: Answer: left."}
+{"id": "t3-book-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-book-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the book is on their right and they are facing the sea, it means that if you were standing behind them looking at the sea, the book would be to their right side.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-book-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-book-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the book is on their right, it means the book must be on the second friend's left because they are sitting opposite each other. Answer: left."}
+{"id": "t3-book-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-book-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the book is on their right and they are facing the sea, it means that if you were standing at the other end of the bench looking towards them, the book would be to their right side.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-book-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-book-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the book is on their right, it means the book must be on the second friend's left because they are sitting opposite each other. Answer: left."}
+{"id": "t3-book-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-phone-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the phone is on their left, and they are facing the sea, it means that if you were standing behind them looking at the sea, the phone would be to their left side.\n\nAnswer: left"}
+{"id": "t3-phone-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-phone-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the phone is on their left, it means the phone must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-phone-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-phone-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the phone is on their left, and they are facing the sea, it means the phone must be to the left of them as they stand.\n\nAnswer: left"}
+{"id": "t3-phone-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-phone-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the phone is on their left, it means the phone must be to the left of them. Therefore, the answer is:\n\nAnswer: left"}
+{"id": "t3-phone-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-phone-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the phone is on their right, and they are facing the sea, it means the phone would be to the right of them as well. Therefore, the phone must be on the second friend's left side.\n\nAnswer: left"}
+{"id": "t3-phone-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-phone-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the phone is on their right, it means they have the phone to their right side. Since the second friend is sitting opposite the first friend, the second friend would be on the left side of the table facing the first friend. Therefore, the answer is:\n\nAnswer: left"}
+{"id": "t3-phone-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-phone-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the phone is on their right, and they are facing the sea, it means that if you were standing behind them looking at the sea, the phone would be to their left side.\n\nAnswer: left"}
+{"id": "t3-phone-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-phone-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the phone is on their right, and assuming they are facing towards you (the observer), then the phone must be on their left side. Answer: left."}
+{"id": "t3-phone-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-lamp-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "Let's break it down:\n1. The first friend sees the lamp on their left.\n2. Since they're facing the sea and there's only one person to their left, that must be the second friend.\n3. Therefore, if the lamp is on the first friend's left, it must also be on the second friend's left.\n\nAnswer: left"}
+{"id": "t3-lamp-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-lamp-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the lamp is on their left, it means the lamp must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-lamp-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-lamp-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the lamp is on their left, and they are facing the sea, it means the lamp must be to the left of them as they look at the sea.\n\nAnswer: left"}
+{"id": "t3-lamp-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-lamp-left-self_opp", "mode": "cot", "pred": "right", "ok": false, "raw": "If the first friend says the lamp is on their left, it means the lamp must be to the right of them because they are sitting opposite each other. Answer: right."}
+{"id": "t3-lamp-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-lamp-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the lamp is on their right, and they are facing the sea, it means the lamp must be to the right of them. Since the second friend is also facing the same direction (the sea), if the first friend's lamp is on their right, then the second friend's lamp would logically be on the"}
+{"id": "t3-lamp-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-lamp-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the lamp is on their right, it means the lamp must be on the second friend's left side because they are sitting opposite each other. Answer: left."}
+{"id": "t3-lamp-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-lamp-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the lamp is on their right, and they are facing the sea, it means the lamp must be to the left of them because they are facing away from the sea.\n\nAnswer: left"}
+{"id": "t3-lamp-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-lamp-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the lamp is on their right, it means the lamp must be on the opposite side of them from where they're facing. Therefore, the lamp is on the first friend's left.\n\nAnswer: left"}
+{"id": "t3-lamp-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-bottle-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "Let's break it down:\n1. The first friend sees the bottle on their own left.\n2. Since they're facing the same direction as the second friend, if the bottle is on their left, it must be on the second friend's left as well.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-bottle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-bottle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the bottle is on their left, it means the bottle must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-bottle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-bottle-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the bottle is on their left, and they are facing the sea, it means the bottle must be to the left of them as well since they are looking at the same direction.\n\nAnswer: left"}
+{"id": "t3-bottle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-bottle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the bottle is on their left, it means the bottle must be to the left of them. Therefore, the bottle is on the first friend's left.\n\nAnswer: left"}
+{"id": "t3-bottle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-bottle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the bottle is on their right, and they are facing the sea, it means the bottle must be to the right of them as well. Since the second friend is also facing the same direction (the sea), if the bottle is to the right of the first friend, it would logically follow that the bot"}
+{"id": "t3-bottle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-bottle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the bottle is on their right, and assuming they are facing towards you (the observer), then the bottle must be on the second friend's left side. Answer: left."}
+{"id": "t3-bottle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-bottle-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the bottle is on their right, and they are facing the sea, it means the bottle must be to the left of them because they are standing on the same side as the sea.\n\nAnswer: left"}
+{"id": "t3-bottle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-bottle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the bottle is on their right, and assuming they are facing towards you (the observer), then the bottle must be on your left side. Answer: left."}
+{"id": "t3-bottle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-apple-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "Let's break it down:\n1. Both friends are facing the same direction (the sea).\n2. The first friend states that the apple is on their left.\n3. Since they are facing each other and the apple is described as being to the left of the first friend, it must be to the right of the second friend.\n\nTherefore,"}
+{"id": "t3-apple-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-apple-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the apple is on their left, it means the apple must be to the left of them. Since they are sitting opposite each other, this would place the apple to the right of the second friend.\n\nAnswer: right"}
+{"id": "t3-apple-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-apple-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine where the apple is located relative to the first friend, we need to consider their perspective and the direction of the sea.\n\n1. Both friends are facing the same direction (the sea).\n2. The first friend states that the apple is on their left.\n3. Since they are facing each other across t"}
+{"id": "t3-apple-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-apple-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the apple is on their left, it means the apple must be to the left of them on the table. Therefore, the answer is: Answer: left."}
+{"id": "t3-apple-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-apple-right-same", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend sees an apple on their own right and they're facing the sea, it means that if you were standing behind them looking at the same direction, the apple would be to their right side.\n\nTherefore, the answer is: Answer: right."}
+{"id": "t3-apple-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-apple-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the apple is on their right, and assuming they are facing towards you (the observer), then the apple must be on the second friend's left side. Answer: left."}
+{"id": "t3-apple-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-apple-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the apple is on their right, and they are facing the sea, it means that if you were standing at the other end of the bench looking towards them, the apple would be to their right side.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-apple-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-apple-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the apple is on their right, and assuming they are facing towards you (the observer), then the apple must be on the person's left side. Answer: left."}
+{"id": "t3-apple-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-pen-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "Let's break it down:\n1. The first friend sees the pen on their own left.\n2. Since they're facing the same direction as the second friend, if the pen is on their left, it must be on the second friend's left as well.\n\nTherefore, the answer is: Answer: left."}
+{"id": "t3-pen-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-pen-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the pen is on their left, it means the pen must be to the left of them. Since they are sitting opposite each other, this would place the pen to the right of the second friend.\n\nAnswer: right"}
+{"id": "t3-pen-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-pen-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the pen is on their left, and they are facing the sea, it means the pen must be to the left of them as well since they are looking at the sea.\n\nAnswer: left"}
+{"id": "t3-pen-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-pen-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the pen is on their left, it means the pen must be to the left of them on the table. Therefore, the answer is: Answer: left."}
+{"id": "t3-pen-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-pen-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the pen is on their right, and they are facing the sea, it means the pen would be to the right of them as well. Since the second friend is also facing the same direction (the sea), the pen must be on the second friend's left side.\n\nAnswer: left"}
+{"id": "t3-pen-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-pen-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the pen is on their right, it means the pen must be on the second friend's left because they are sitting opposite each other. Answer: left."}
+{"id": "t3-pen-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-pen-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the pen is on their right, and they are facing the sea, it means that if you were standing behind them looking at the sea, the pen would be to their immediate right.\n\nTherefore, the answer is: Answer: right."}
+{"id": "t3-pen-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-pen-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the pen is on their right, and assuming they are facing towards you, it means the pen would be to your left side if we were standing there looking at them.\n\nAnswer: left"}
+{"id": "t3-pen-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-plate-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "To determine where the plate is located relative to the second friend, we need to consider their positions and the information given.\n\n1. Both friends are facing the same direction (the sea).\n2. The first friend states that the plate is on his left.\n3. Since they are facing each other, if the plate "}
+{"id": "t3-plate-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-plate-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the plate is on their left, it means the plate must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-plate-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-plate-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "To determine where the plate is located relative to the first friend, we need to consider their statement and the direction of the sea.\n\n1. The first friend states that the plate is on their left.\n2. Since they are facing the sea, which is typically considered as being on the right side when looking"}
+{"id": "t3-plate-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-plate-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "The first friend has already said that the plate is on their left. Therefore, the plate must be on the first friend's left.\n\nAnswer: left"}
+{"id": "t3-plate-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-plate-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the plate is on their right, and they are facing the sea, it means the direction of the sea would be to their left. Therefore, if the first friend is facing the sea, the second friend must be facing away from the sea (to their right). Since the first friend is on their right"}
+{"id": "t3-plate-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-plate-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the plate is on their right, it means the plate must be on the second friend's left side because they are sitting opposite each other. Answer: left."}
+{"id": "t3-plate-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-plate-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the plate is on their right, and they are facing the sea, it means the direction of the sea would be to the left for them. Therefore, if the plate is on their right, it must be on their left side.\n\nAnswer: left"}
+{"id": "t3-plate-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-plate-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the plate is on their right, it means the plate must be on the second friend's left side because they are sitting opposite each other. Answer: left."}
+{"id": "t3-plate-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-key-left-same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the key is on their left, and they're facing the sea, it means the key would be to their left as well because they can see the sea directly behind them. Therefore, the answer is:\n\nAnswer: left"}
+{"id": "t3-key-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-key-left-opposite", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the key is on their left, it means the key must be on the person to their immediate left. Therefore, the answer is:\n\nAnswer: left"}
+{"id": "t3-key-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-key-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the key is on their left, it means the key must be to the left of them on the bench. Therefore, the answer is: Answer: left."}
+{"id": "t3-key-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-key-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the key is on their left, it means the key must be to the left of them on the table. Therefore, the answer is: Answer: left."}
+{"id": "t3-key-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-key-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the key is on their right, and assuming they're facing the same direction as the second friend (which we can infer from the setup), it logically follows that the key would be on the second friend's left side.\n\nAnswer: left"}
+{"id": "t3-key-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-key-right-opposite", "mode": "cot", "pred": "right", "ok": false, "raw": "If the first friend says the key is on their right, it means the key must be on the person to their immediate right. Therefore, if we visualize this scenario:\n\n1. Imagine the two friends seated across from each other.\n2. The first friend would have the key on their right side.\n3. Since they're facin"}
+{"id": "t3-key-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-key-right-self_same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the key is on their right, and assuming they're facing the sea, it means the key would be to their left if you were standing behind them looking at the sea. Answer: left."}
+{"id": "t3-key-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-key-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the key is on their right, it means the key must be on the opposite side of them from where they're facing. Therefore, if you were to stand facing the first friend and look towards your left, the key would be on your left.\n\nAnswer: left"}
+{"id": "t3-key-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-candle-left-same", "mode": "cot", "pred": "right", "ok": false, "raw": "If the first friend sees a candle on their left and they're facing the sea, it means that if you were standing behind them, the candle would be to their left side. Since the first friend is looking at the sea, which is typically seen as the right side when facing east (or any other direction), the c"}
+{"id": "t3-candle-left-same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-candle-left-opposite", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the candle is on their left, it means the candle must be on the second friend's right because they are sitting opposite each other. Answer: right."}
+{"id": "t3-candle-left-opposite", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-candle-left-self_same", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the candle is on their left, and they are facing the sea, it means the candle must be to the left of them as well since they are looking at the sea.\n\nAnswer: left"}
+{"id": "t3-candle-left-self_same", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-candle-left-self_opp", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the candle is on their left, it means the candle must be to the left of them. Therefore, the candle is on the first friend's left.\n\nAnswer: left"}
+{"id": "t3-candle-left-self_opp", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-candle-right-same", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend sees the candle on their right and they're facing the sea, it means the candle must be to their left because they can see it directly across from them.\n\nAnswer: left"}
+{"id": "t3-candle-right-same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-candle-right-opposite", "mode": "cot", "pred": "left", "ok": true, "raw": "If the first friend says the candle is on their right, it means the candle must be on the opposite side of the table from them. Since they are sitting opposite each other, the candle would be on the second friend's left. Answer: left."}
+{"id": "t3-candle-right-opposite", "mode": "hint", "pred": "right", "ok": false, "raw": "right"}
+{"id": "t3-candle-right-self_same", "mode": "cot", "pred": "right", "ok": true, "raw": "If the first friend says the candle is on their right, and they are facing the sea, it means that if you were standing at the other end of the bench looking towards them, the candle would be to their right.\n\nTherefore, the answer is: Answer: right."}
+{"id": "t3-candle-right-self_same", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
+{"id": "t3-candle-right-self_opp", "mode": "cot", "pred": "left", "ok": false, "raw": "If the first friend says the candle is on their right, it means the candle must be on the opposite side of them from where they're facing. Therefore, if you were to look at the second friend, the candle would appear on their left.\n\nAnswer: left"}
+{"id": "t3-candle-right-self_opp", "mode": "hint", "pred": "right", "ok": true, "raw": "right"}
